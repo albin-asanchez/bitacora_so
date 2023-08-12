@@ -28,3 +28,7 @@ Bitácora de comandos para la clase de sistemas operativos
 | `sudo` | Ejecuta un comando como superusuario. | `sudo apt update` actualizaría la lista de paquetes en un sistema. |
 | `ifconfig` | Muestra o configura información de red. | `ifconfig` mostraría información sobre las interfaces de red. |
 | `ping` | Envía paquetes ICMP para probar la conectividad de red. | `ping google.com` enviaría paquetes ICMP a "google.com". |
+| `sudo apt-get update` | Actualiza la lista de paquetes disponibles en los repositorios configurados.| `sudo apt-get update`|
+| `sudo apt-get upgrade`| Instala las actualizaciones de paquetes que ya están instalados.| `sudo apt-get upgrade` OfficeLibre |
+| `sudo apt-get install`| Instala un paquete especificado.| `sudo apt-get install nombre_del_paquete` |
+| `sudo useradd -m nombredeusuario -G wheel -p passworddelusuario` | Crea un nuevo usuario en el sistema. | `sudo useradd -m juan -G wheel -p mipassword` crearía un usuario llamado "juan", lo agregaría al grupo "wheel" y establecería "mipassword" como su contraseña. |
